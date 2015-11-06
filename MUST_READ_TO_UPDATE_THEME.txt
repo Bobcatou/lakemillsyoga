@@ -1,0 +1,15 @@
+June 10, 2015
+
+
+For some reason Elegant Theme "MyCuisine" can't have a fully functional child theme. When updating parent theme, you need to add code below to /includes/functions/sidebars.php updated parent theme. Putting this in the child theme doesn't work. 
+
+if ( function_exists('register_sidebar') )
+    register_sidebar(array(
+		'name' => 'Notice',
+		'before_widget' => '',
+		'after_widget' => '<!-- end Notice Widget-->',
+		'before_title' => '',
+		'after_title' => '',
+    ));
+
+

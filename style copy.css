@@ -1,0 +1,682 @@
+/*
+Theme Name: MyCuisine Child
+Theme URI: http://www.elegantthemes.com/gallery/
+Description: 2 Column theme from Elegant Themes Modified by Listen to the Wind Media
+Author: Bryan Cady
+Author URI: http://www.listentothewindmedia.com
+Template: MyCuisine 
+Version: 2.9
+
+*/
+
+@import url("../MyCuisine/style.css");
+
+
+
+/*********************************************
+ Custom CSS for Lake Mills Yoga July 9, 2012 
+*********************************************/
+
+
+
+@font-face {
+            font-family: 'gisha';
+              src:url('http://www.lakemillsyoga.com/wp-content/themes/MyCuisine-Child/gisha.ttf') format('truetype');
+              }
+
+
+h1, h2, h3, h4 {
+	font-family: 'gisha', 'Times New Roman', serif;
+
+}
+
+h2 {
+	font-size: 30px;
+	padding: 15px 0px;
+}
+
+h3 {
+	color:#cae28e;
+}
+
+body {
+	font-family: 'Times New Roman', serif;
+
+}
+
+p {
+	font-family: 'Times New Roman', serif;
+	color:#2b2b2b;
+	font-size:15px;
+}
+
+
+a {
+	color: #800000;
+}
+
+
+/*added to fix the design of the horizontal scroll  */
+#menu-right {display: none !important;}
+
+
+
+
+/* Below appeared to be causing the screen to jump on slider change when viewing page from bottom of site */
+/*
+.home .slide {
+	margin-top:65px !important;
+}
+*/
+/*this is the correct style to fix above command */
+.home {
+	margin-top:65px !important;
+}
+
+
+
+
+/* Header area on page templates July 22, 2012  5:17 PM  bc  */
+#page-top {
+	border-bottom: 2px solid #999;
+}
+#page-top h1.category-title {
+	text-transform: none;
+}
+
+#page-top h1.category-title, #page-top h2.title a  {
+	color:#800000;
+}
+
+
+
+
+
+/*content areas on home page */
+.home-block {
+font-style: normal;
+}
+
+.home-block h3.title {
+	padding-top:30px !important;
+}
+
+/* Helps the single lines in the address look better.  July 22, 2012  4:05 PM  bc  */
+.home-block p {
+	padding-bottom: 5px !important;
+}
+
+
+
+/*Slider description */
+.description p {
+	font-size:20px;
+}
+
+/*got rid of shadow between slider and main area */
+.slide-top-shadow {
+	display:none;
+}
+
+a.readmore span {
+	display:none;
+}
+#content-area h2 {
+	color:#cae28e;
+}
+
+/*Gives drop shadow to images */
+#content-area img {
+	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+	border:solid 5px #fff;
+}
+
+/* Gets rid of image drop shadow and border to "New to Yoga", "Benefits" and "Classes" pages photo July 24, 2012  7:22 PM  bc  */
+img.wp-image-959, img.wp-image-961, img.wp-image-966, img.wp-image-985, img.wp-image-1115  {
+	-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	border:none;
+}
+
+
+img.wp-image-959 {
+	padding-right:75px !important;
+}
+
+
+
+/*Gets rid border line in footer area */
+
+#footer-widgets {
+	border-bottom:none;
+}
+
+/*For books area on the "Benefits of Yoga" page */
+.books {
+float:left;
+}
+
+#searchform {
+	display:none !important;
+}
+
+
+#calendar {
+	width:800px;
+		-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+margin:auto !important;
+border: solid 8px #cae28e;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+
+
+
+.rates {
+	font-family: 'Times New Roman', serif;
+	color:#2b2b2b;
+	font-size:15px;
+	line-height: 20px;
+	width:60%;
+	margin:auto;
+
+}
+
+.rates table td {
+	padding-right:10px;
+}
+
+.schedule {
+	font-family: 'Times New Roman', serif;
+	color:#2b2b2b;
+	width:500px;
+	font-size:15px;
+	line-height: 20px;
+	margin:auto !important;
+
+}
+
+#left-area ul {
+	font-family: 'Times New Roman', serif;
+	color:#2b2b2b;
+	font-size:15px;
+	line-height: 20px;
+}
+
+h3 {
+	font-size:20px;
+}
+
+.home-block h3.title {
+	text-transform: none;
+	color: #cae28e;
+}
+   
+a.browse-menu {
+	left:358px !important;
+}
+
+
+/* makes menu bar all lower case and changes font to gisha  July 22, 2012  2:39 PM  bc  */
+ul#top-menu a {
+	text-transform: lowercase;
+	font-family: 'gisha', 'Times New Roman', serif;
+	font-size: 16px;
+}
+
+
+/* italisizes testimonial box July 22, 2012  3:55 PM  bc  */
+.testimonials-item p {
+	font-style: italic;
+}
+
+/* Makes content are white July 22, 2012  3:54 PM  bc  */
+#content-area {
+	background: none;
+	background-color:#fff;
+}
+
+/* rids slider navigation July 22, 2012  3:54 PM  bc  */
+#switcher {
+	display: none;
+}
+
+/*  Gets rid of tree hierarchy under header July 22, 2012  5:01 PM  bc  */
+#breadcrumbs {
+	display:none;
+}
+
+
+
+
+#logo {
+	top: 0px;
+	left: 0px;
+}
+
+/* logo portion of menubar July 24, 2012  12:37 PM  bc  */
+#menu-content {
+background: url(images/menu-bg-dark-red.png) repeat-x;
+}
+
+/* Tab portion of menubar July 24, 2012  12:38 PM  bc  */
+#menu-bar {
+	background: url(images/menu-bar-with-logo-dark-red.png) no-repeat;
+
+}
+
+/* Added to try to fix box shadow in the google map.  July 21, 2012  10:45 AM bc  */
+
+#bodyContent a {
+text-shadow: 0px 0px 0px #000 !important;
+}
+
+/*  Moves menubar to top of PAGES.  Note Homepage is different July 24, 2012  4:39 PM  bc  */
+.page #menu-bar {
+	top:-29px;
+}
+
+
+
+
+
+.page #main-area h1 {
+	margin-top: -80px !important;
+}
+
+.page #content-area {
+	margin-top: -20px;
+}
+
+#page-top h2.title a {
+	display:none;
+}
+
+/*Makes footer menu horizontal July 21, 2012  10:46 AM */
+
+ul.bottom-menu { background: url(images/bottom-menu-bg.png) no-repeat top center; padding-top: 30px; padding-bottom: 15px; }
+      .nobg ul.bottom-menu { background: none; }
+         ul.bottom-menu li { font-size: 12px; padding-right: 16px; text-transform: uppercase; display: inline; }
+            ul.bottom-menu li a { color:#442917; }
+               ul.bottom-menu li a:hover {text-decoration: none; color: #a29d79; } 
+                  ul.bottom-menu li.current_page_item a { color: #a29d79 !important; font-style: italic; }
+      ul.bottom-menu.nobg { background:none !important; } 
+
+ul.bottom-menu li a {
+	text-transform: lowercase !important;
+	font-family: 'gisha', 'Times New Roman', serif;
+	font-size:15px;
+}
+
+/* needed to show on local host???  Here as protection  July 25, 2012  10:04 PM  bc  */
+ul#bottom-menu li {
+	text-transform: lowercase !important;
+	font-family: 'gisha', 'Times New Roman', serif;
+	font-size:15px;
+
+}
+
+p#copyright {
+	color:#2B2B2B;
+}
+
+p#copyright a {
+color: #800000;
+}
+/*********************************************
+ About Pate
+*********************************************/
+
+ 
+.page-id-723 h2 {
+	padding: 0px 0px 5px;
+}
+
+
+#mission {
+	padding-top: 5px;
+}
+.page-id-723 img.alignleft {
+	margin-right:30px !important;
+}
+/*********************************************
+ End of About page
+*********************************************/
+
+/*takes the author title off the testimonial in the right content block on the home page */
+p.author {
+	display:none;
+}
+
+#yogaFinder {
+	width: 200px;
+}
+
+#yogaFinder a {
+	color:#800000;
+	font-family: 'gisha';
+}
+
+.page-id-733 #content-area h2 {
+	font-size:26px !important;
+	line-height:18px;
+}
+
+.page-id-733 #content-area img {
+	-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	border:none;
+
+}
+
+.page-id-733 #content-area p {
+	line-height:20px;
+}
+
+.wp-image-1174, .wp-image-1180, .wp-image-1176, .wp-image-1177 {
+
+}
+
+
+
+/*changes made to slider/header background and added Notice area 11-1-12 bc  */
+
+/* Involves header and slide of index page July 27, 2012  2:39 PM  bc  */
+.home #main-area {
+	margin-top:-94px !important;
+	background: #cae28e !important;
+	height:94px !important;
+}
+
+/* Colors background of Slider and header area */
+
+#page-top .active { 
+background-color: #cae28e !important;
+}
+
+#page-top .slide { 
+background-color: #cae28e !important; 
+
+}
+
+.js #featured {
+	background-color: #cae28e !important; 
+}
+
+/*Code for header area pages, NOT on homepage */
+
+.page #main-area {
+	background: #cae28e !important;
+	height:145px !important;
+}
+
+/*end*/
+
+/*code for news widget box under slider */
+
+
+/*gets rid of border above notice JUST on home page */
+.home #page-top {
+	border-bottom: none;
+}
+
+/*********************************************
+ For Beginning Yoga title on Beginner page
+*********************************************/
+
+.page-id-1254 h2 {
+	font-size:28px;
+}
+
+
+
+/*********************************************
+Banner CSS
+*********************************************/
+
+#noticeBox  {
+height: 70px;
+width: 960px;
+margin: 0px auto;
+background:url(images/summertime-2014.png);
+}
+
+/*Add below only for Banners with image link 
+
+#moreHere img {
+	border:none;
+	margin-left: 847px;	
+		-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+
+}
+
+*/
+
+
+
+/*********************************************
+ For Intro to beginner class on schedule page
+*********************************************/
+
+
+
+.intro {
+	float:right;
+		border:none;
+		-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	padding:30px 200px 0px 0px;
+
+}
+
+#monthlyBox {
+	padding-left: 75px;
+}
+
+
+/*********************************************
+ Oscar Party Page - Started Jan 13, 2013
+*********************************************/
+.wp-image-1329, .wp-image-1652 {
+	-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	border:none;	
+}
+
+/*Gets rid of header and menu for page */
+
+.page-id-1290 #page-top #main-area {
+	display:none;
+}
+
+/*Table for dates and times */
+.tablepress-id-1 {
+	font-family: gisha;
+	font-size: 16px;
+	width:70% !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.tablepress-id-1 .odd td {
+	background-color: #fff !important;
+}
+
+.tablepress-id-1 tbody td {
+	border-top: 0px !important
+}
+
+.tablepress-id-1 td {
+	padding:2px !important;
+}
+
+/*headers and copy */
+#film h1, #film h2, #film h3 {
+	color:#800000;
+}
+
+#film h2 {
+	padding: 0px 0px 4px;
+}
+
+#film p {
+	line-height: 18px;
+}
+/*********************************************
+ End
+*********************************************/
+
+
+/*********************************************
+ Styles for Workshop page April 17, 2013  12:57 PM
+*********************************************/
+.wp-image-1503, .wp-image-1619  {
+	margin-top: 10px;
+	-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	border:none;	
+}
+
+
+/*********************************************
+ Image for NO Workshops
+*********************************************/
+
+.wp-image-1529 {
+	-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	border:none;	
+
+}
+
+/*********************************************
+ Below is Style for Arm Balance Workshop December 15, 2013  10:19 PM
+*********************************************/
+
+
+.wp-image-1640 {
+	border: 2px solid #cae28e !important;
+	padding: 10px 0px 30px 20px !important;
+	-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+
+}
+/*********************************************
+ SPECIAL PDF FOR WORKSHOP PAGE EXPIRES NOV. 17, 2013
+*********************************************/
+/*
+ .wp-image-1610, .wp-image-1619 {
+	padding-top: 20px;
+	padding-left: 20px;
+	border:2px solid #ccc !important;	
+}
+
+
+
+
+
+#imagesLeft {
+	float: left;
+	width: 300px;
+
+}
+
+#copyRight {
+	float: right;
+	width: 600px;
+
+}
+
+#copyRight h4 {
+	color: #cae28e;
+	font-family: gisha;
+}
+
+.cost {
+	padding: 10px 0px;
+}
+.cost p {
+	font-family: gisha;
+	color: #cae28e;
+	padding-bottom: 5px;
+}
+
+
+.wp-image-1395 {
+	margin-top: 10px;
+	-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	border:none;	
+}
+
+.wp-image-1525, .wp-image-1526, .wp-image-1527, .wp-image-1528, .wp-image-1529, .wp-image-1416 {
+	margin-top: 15px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+    -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
+	border:none;	
+
+}
+
+.wp-image-1415 {
+	margin-top: 80px;
+}
+
+.wp-image-1414 {
+	margin-top: 445px;
+}
+
+.wp-image-1416 {
+	margin-top: 145px;
+}
+
+.wp-image-1243 {
+	margin-top: 340px;
+}
+
+.clearFloat {
+	clear: both;
+}
+*/
+
+/*This adds the textured green to the slider and header */
+/*
+.js #featured {
+background-color: transparent !important;
+}
+#page-top .slide {
+background-color: transparent !important;
+}
+.home #page-top {
+background:url(images/greentexture.jpg) repeat !important;
+}
+
+.home #main-area {
+	margin-top:-94px !important;
+	background:url(images/greentexture.jpg) repeat-x !important;
+	height:94px !important;
+}
+
+/*Code for header area pages, NOT on homepage */
+/*
+.page #main-area {
+	background:url(images/greentexture.jpg) repeat-x !important;
+	height:145px !important;
+}
+*/
