@@ -452,21 +452,21 @@ Banner CSS
 height: 70px;
 width: 960px;
 margin: 0px auto;
-background:url(images/tai-chi.png);
+background:url(images/detox.png);
 
 }
 
 /*
 Add below only for Banners with image link
 */
-/*
+
 #moreHere img {
 	border:none;
-	margin-left: 740px;	
+	margin-left: 818px;	
 		-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
     -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
 	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
-/*
+
 }
 
 
