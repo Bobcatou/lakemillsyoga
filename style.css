@@ -469,9 +469,14 @@ Add below only for Banners with image link
 
 }
 
+/*********************************************
+deeper.png related PDF only. Delete after Jan 20, 2015
+*********************************************/
 
 
-
+.page-id-1385 img {
+    box-shadow: 0 0 0 !important;
+}
 
 
 
