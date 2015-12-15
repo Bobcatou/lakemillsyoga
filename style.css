@@ -452,8 +452,11 @@ Banner CSS
 height: 70px;
 width: 960px;
 margin: 0px auto;
-background:url(images/deeper.png);
-
+background:url(images/free_eve.png);
+}
+/*take out when you put graphic back*/
+#moreHere img {
+	display:none;
 }
 
 /*
