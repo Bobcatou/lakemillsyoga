@@ -134,7 +134,7 @@ a.readmore span {
 }
 
 /* Gets rid of image drop shadow and border to "New to Yoga", "Benefits" and "Classes" pages photo July 24, 2012  7:22 PM  bc  */
-img.wp-image-959, img.wp-image-961, img.wp-image-966, img.wp-image-985, img.wp-image-1115  {
+img.wp-image-959, img.wp-image-961, img.wp-image-966, img.wp-image-985, img.wp-image-1115, .wp-image-2037  {
 	-webkit-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
     -moz-box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
 	box-shadow: 0px 0px 0px rgba(202, 226, 142, 0) !important;
